@@ -44,10 +44,10 @@ const CreatorSignup = () => {
       return false;
     }
 
-    if (!formData.followerCount.trim() || isNaN(Number(formData.followerCount))) {
+    if (!formData.followerCount.trim()) {
       toast({
         title: "Follower count required",
-        description: "Please enter a valid follower count.",
+        description: "Please enter your follower count.",
         variant: "destructive",
       });
       return false;
@@ -94,7 +94,9 @@ const CreatorSignup = () => {
             </h2>
             
             <p className="text-lg sm:text-xl text-muted-foreground mb-8">
-              Scale your presence. Deepen your connections. Engage personally at every level.
+              Scale your presence. Deepen your connections.
+              <br />
+              Engage personally at every level.
             </p>
           </div>
 
@@ -151,12 +153,11 @@ const CreatorSignup = () => {
                 </label>
                 <Input
                   id="followerCount"
-                  type="number"
+                  type="text"
                   value={formData.followerCount}
                   onChange={(e) => setFormData({ ...formData, followerCount: e.target.value })}
-                  placeholder="10000"
+                  placeholder="e.g. 10K, 100K, 1M+"
                   required
-                  min="0"
                 />
               </div>
 
