@@ -13,9 +13,9 @@ const Hero = () => {
         <img 
           src={heroImage} 
           alt="AI Chat Network Visualization" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover opacity-60"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/98 via-background/95 to-background"></div>
       </div>
 
       {/* Content */}
