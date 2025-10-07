@@ -29,7 +29,7 @@ const Hero = () => {
             <span className="text-foreground">with Fans</span>
           </h1>
           
-          <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl sm:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
             Iconic Chat allows fans to connect directly with their favorite YouTube creators 
             and build unique, personal relationships 24/7.
           </p>
