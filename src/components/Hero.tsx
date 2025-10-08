@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
-import iconicLogo from "@/assets/iconic-chat-logo.png";
 
 const Hero = () => {
   const scrollToForm = () => {
@@ -22,14 +21,6 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-20 animate-fade-in">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <div className="flex justify-center mb-24">
-            <img 
-              src={iconicLogo} 
-              alt="Iconic Chat Logo" 
-              className="h-24 sm:h-32 lg:h-40 w-auto"
-            />
-          </div>
-          
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight drop-shadow-[0_0_60px_rgba(168,85,247,0.7)]">
             <span className="bg-gradient-hero bg-clip-text text-transparent">
               Redefine Your Relationship
