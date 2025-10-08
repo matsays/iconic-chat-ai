@@ -36,10 +36,9 @@ const Hero = () => {
 
           <div className="pt-4">
             <Button 
-              variant="hero" 
               size="lg" 
               onClick={scrollToForm}
-              className="text-lg px-8 py-6 h-auto animate-scale-in"
+              className="text-lg px-8 py-6 h-auto animate-scale-in bg-gradient-hero-reverse text-white hover:opacity-90 transition-opacity shadow-elegant"
             >
               Join Creator Waitlist
             </Button>

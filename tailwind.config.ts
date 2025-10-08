@@ -120,6 +120,7 @@ export default {
       },
       backgroundImage: {
         "gradient-hero": "var(--gradient-hero)",
+        "gradient-hero-reverse": "var(--gradient-hero-reverse)",
         "gradient-section": "var(--gradient-section)",
       },
       boxShadow: {
