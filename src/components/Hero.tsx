@@ -21,7 +21,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20 animate-fade-in">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight drop-shadow-[0_0_40px_rgba(168,85,247,0.4)]">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight drop-shadow-[0_0_60px_rgba(168,85,247,0.7)]">
             <span className="bg-gradient-hero bg-clip-text text-transparent">
               Redefine Your Relationship
             </span>
