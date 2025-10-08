@@ -163,9 +163,8 @@ const CreatorSignup = () => {
 
               <Button 
                 type="submit" 
-                size="lg"
                 disabled={isSubmitting}
-                className="w-full text-lg px-8 py-6 h-auto bg-gradient-hero-reverse text-white hover:opacity-90 transition-opacity shadow-elegant"
+                className="text-lg p-8 h-auto bg-gradient-hero-reverse text-white hover:opacity-90 transition-opacity shadow-elegant"
               >
                 {isSubmitting ? "Joining Waitlist..." : "Join Waitlist"}
               </Button>
