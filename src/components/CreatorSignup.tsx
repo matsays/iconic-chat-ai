@@ -84,7 +84,7 @@ const CreatorSignup = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto animate-slide-up">
           <div className="text-center mb-12">
-            <Badge className="mb-8 px-4 py-2 text-sm">
+            <Badge className="mb-8 px-4 py-2 text-sm bg-gradient-hero-reverse text-white border-0">
               <Sparkles className="w-4 h-4 mr-2" />
               For Creators
             </Badge>
