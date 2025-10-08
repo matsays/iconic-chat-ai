@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-20 animate-fade-in">
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-20 animate-fade-in">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="flex justify-center mb-24">
             <img 
