@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import { Sparkles } from "lucide-react";
+import { Crown } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const CreatorSignup = () => {
@@ -85,7 +85,7 @@ const CreatorSignup = () => {
         <div className="max-w-2xl mx-auto animate-slide-up">
           <div className="text-center mb-12">
             <Badge className="mb-8 px-4 py-2 text-sm bg-gradient-hero-reverse text-white border-0">
-              <Sparkles className="w-4 h-4 mr-2" />
+              <Crown className="w-4 h-4 mr-2" />
               For Creators
             </Badge>
             
