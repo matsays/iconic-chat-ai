@@ -94,9 +94,9 @@ const CreatorSignup = () => {
             </h2>
             
             <p className="text-lg sm:text-xl text-muted-foreground mb-8">
-              Scale your presence. Deepen your connections.
+              Deepen your connections. Grow your community.
               <br />
-              Engage personally at every level.
+              Amplify your content.
             </p>
           </div>
 

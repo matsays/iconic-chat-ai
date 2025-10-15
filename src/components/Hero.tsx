@@ -23,18 +23,16 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight drop-shadow-[0_0_60px_rgba(168,85,247,0.7)]">
             <span className="bg-gradient-hero bg-clip-text text-transparent">
-              Redefine Your Relationship
+              Redefining the Relationship Between Fans & Creators
             </span>
-            <br />
-            <span className="bg-gradient-hero bg-clip-text text-transparent">with Fans</span>
           </h1>
           
           <p className="text-xl sm:text-2xl text-white max-w-3xl mx-auto leading-relaxed">
             Iconic Chat allows fans to connect directly with their favorite YouTube creators 
-            and build unique, personal relationships 24/7.
+            and build unique, personal relationships anytime and anywhere.
           </p>
 
-          <div className="pt-4">
+          <div className="pt-4 space-y-3">
             <Button 
               size="lg" 
               onClick={scrollToForm}
@@ -42,6 +40,9 @@ const Hero = () => {
             >
               Join Creator Waitlist
             </Button>
+            <p className="text-sm text-white/80">
+              Be among the first to experience the future of fan engagement.
+            </p>
           </div>
         </div>
       </div>

@@ -16,8 +16,8 @@ const Mission = () => {
           <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed">
             <span className="text-foreground font-semibold">Authentic connections, amplified.</span>
             <br />
-            Our technology bridges creators and communities across time zones and languages—making 
-            relationships limitless.
+            Iconic Chat reimagines how fans engage with their favorite creators replacing comments 
+            and likes with authentic conversations that happen 24/7.
           </p>
         </div>
       </div>
